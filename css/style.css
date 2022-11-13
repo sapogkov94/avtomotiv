@@ -1,0 +1,240 @@
+@font-face {
+	font-family: 'Quite'; 
+	src: url(../fonts/Quite\ Chocolatey.ttf);
+}
+@font-face {
+    font-family: 'Web'; 
+    src: url(../fonts/PT_Serif-Web-Regular.ttf);
+}
+@font-face {
+	font-family: 'MontserratR'; 
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: 'MontserratB'; 
+	src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+	font-family: 'Couture'; 
+	src: url(../fonts/couture-bld.otf);
+}
+.container {
+    width: 1011px;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+}
+.header {
+    background: url(../img/img.png) no-repeat center top;
+    
+}
+.logo {
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Quite';
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+header a {
+    color: #fff;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    margin-left: auto;     
+}
+.menu :hover {
+    background-color: #191439;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+} 
+
+.menu li a {  
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'MontserratR';
+    font-size: 18px;
+    font-family: monospace;
+    padding: 5px 13px; 
+    transition: 0.04s;
+}
+.sell{
+    margin-left: 10px;
+    width: 550px;
+    padding-bottom: 100px;
+}
+#top {
+    font-family: 'MontserratB';
+    color: #191439;
+    font-size: 60px;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: -15px;
+    letter-spacing: 2px;
+}
+#bot {
+    font-family: 'MontserratB';
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+h2 {
+    font-family: 'MontserratB';
+    color: #191439;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+.whitetext {
+    font-family: 'Web';
+    color: #fff;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.blacktext {
+    font-family: 'Web';
+    color: #191439;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.iconandtext {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    width: 200px;
+    height: 300px;
+    display: wrap ;
+    justify-content: space-between;
+}
+.img {
+    width: 160px;
+    height: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px; 
+}
+.story {
+    background-color: #191439;
+    width: 1200px;
+    margin: 0 auto;
+}
+.story_box {
+    display: flex;
+    justify-content: space-between;
+}
+#businesstext {
+    width: 470px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    text-align: left;
+    text-justify: auto;
+}
+.menu_bar {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'MontserratR';
+    font-size: 18px;
+    font-family: monospace;
+    margin: auto 0 ;
+    border: 2px solid #C62314;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+.menu_bar:hover {
+    background-color: #C62314;
+    transition: all 0.1s ease;
+}
+.footer {
+    background-color: #191439;
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer_box {
+    display: flex;
+    justify-content: space-between;
+}
+#withlove {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: left;
+    text-justify: auto;
+}
+#profille {
+    color: #C62314;
+    text-decoration: none;
+}
+.logo2 {
+    color: #C62314;
+    font-size: 45px;
+    font-family: 'Quite';
+    font-weight: lighter;
+    margin-right: 25px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+#pricing {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.item_price {
+    background-color: rgb(239, 239, 239) ;
+    width: 300px ;
+    height: 400px ;
+    border-radius: 7px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#nameprice{
+    margin-top: 20px;
+    font-size: 23px;
+}
+.money {
+    font-family: 'MontserratB';
+    font-size: 30px;  
+}
+.magazine {
+    font-size: 17px;
+    list-style: none;
+    text-align: space;
+    line-height: 25px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.btn-magazine {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'MontserratR';
+    background-color: #191439;
+    font-size: 15px;
+    border: 2px solid #191439;
+    border-radius: 5px;
+    padding: 13px 60px;
+}
+.btn-magazine:hover {
+    background-color: #C62314;
+    border: 2px solid #C62314;
+
+}
